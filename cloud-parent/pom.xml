@@ -17,7 +17,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <disruptor.version>3.4.4</disruptor.version>
+        <disruptor.version>3.3.7</disruptor.version>
         <freemarker.version>2.3.31</freemarker.version>
         <hutool.verion>5.8.19</hutool.verion>
         <jackson.version>2.15.2</jackson.version>
@@ -33,7 +33,7 @@
 
     <dependencies>
         <!-- 服务配置注册相关 -->
-        <!-- 2.x 的 nacos-client 有问题，启动报缺失类，先用 1.4.6 ，等官方解决后再改回 2.x -->
+        <!-- 2.x 的 nacos-client 有问题，启动报缺失类，先用 1.4.7 ，等官方解决后再改回 2.x -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
@@ -61,7 +61,7 @@
         <dependency>
             <groupId>com.alibaba.nacos</groupId>
             <artifactId>nacos-client</artifactId>
-            <version>1.4.6</version>
+            <version>1.4.7</version>
         </dependency>
 
         <!-- 测试相关 -->
