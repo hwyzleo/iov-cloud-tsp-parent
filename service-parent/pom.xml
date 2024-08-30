@@ -16,6 +16,8 @@
     <name>service-parent</name>
 
     <properties>
+        <framework-commons.version>0.0.1-SNAPSHOT</framework-commons.version>
+        <framework-mysql.version>0.0.1-SNAPSHOT</framework-mysql.version>
     </properties>
 
     <dependencies>
@@ -65,11 +67,11 @@
             <version>${jackson.version}</version>
         </dependency>
 
-        <!-- 自用框架 -->
+        <!-- 框架：通用 -->
         <dependency>
             <groupId>net.hwyz.iov.cloud.tsp</groupId>
-            <artifactId>framework-commons</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <artifactId>framework-commons-starter</artifactId>
+            <version>${framework-commons.version}</version>
         </dependency>
     </dependencies>
 
