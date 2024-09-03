@@ -19,6 +19,8 @@
         <framework-commons.version>0.0.1-SNAPSHOT</framework-commons.version>
         <framework-exception.version>0.0.1-SNAPSHOT</framework-exception.version>
         <framework-mysql.version>0.0.1-SNAPSHOT</framework-mysql.version>
+        <framework-redis.version>0.0.1-SNAPSHOT</framework-redis.version>
+        <framework-kafka.version>0.0.1-SNAPSHOT</framework-kafka.version>
     </properties>
 
     <dependencies>
