@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        REPO_URL = "http://${env.MAVEN_USERNAME}:${env.MAVEN_PASSWORD}@${env.MAVEN_URL}/repository/maven-snapshots/"
+        REPO_URL = "http://${env.MAVEN_URL}/repository/maven-snapshots/"
         REPO_ID = "snapshots"
     }
 
