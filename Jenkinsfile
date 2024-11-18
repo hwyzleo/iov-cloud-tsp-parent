@@ -6,6 +6,10 @@ pipeline {
         REPO_ID = "maven-snapshots"
     }
 
+    tools {
+        maven 'M3'
+    }
+
     stages {
         stage('构建并发布') {
             steps {
