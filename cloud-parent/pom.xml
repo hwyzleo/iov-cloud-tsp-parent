@@ -18,6 +18,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <disruptor.version>3.3.7</disruptor.version>
+        <druid.version>1.2.8</druid.version>
         <framework-commons.version>0.0.1-SNAPSHOT</framework-commons.version>
         <freemarker.version>2.3.31</freemarker.version>
         <hutool.verion>5.8.19</hutool.verion>
@@ -192,9 +193,19 @@
                 <version>${mybatis-plus.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-extension</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.freemarker</groupId>
                 <artifactId>freemarker</artifactId>
                 <version>${freemarker.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid.version}</version>
             </dependency>
 
             <!-- Redis相关 -->
