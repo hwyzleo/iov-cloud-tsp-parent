@@ -16,7 +16,6 @@
     <name>service-parent</name>
 
     <properties>
-        <framework-commons.version>0.0.1-SNAPSHOT</framework-commons.version>
         <framework-exception.version>0.0.1-SNAPSHOT</framework-exception.version>
         <framework-mysql.version>0.0.1-SNAPSHOT</framework-mysql.version>
         <framework-redis.version>0.0.1-SNAPSHOT</framework-redis.version>
@@ -81,13 +80,6 @@
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>${jackson.version}</version>
-        </dependency>
-
-        <!-- 框架：通用 -->
-        <dependency>
-            <groupId>net.hwyz.iov.cloud.tsp</groupId>
-            <artifactId>framework-commons-starter</artifactId>
-            <version>${framework-commons.version}</version>
         </dependency>
     </dependencies>
 
