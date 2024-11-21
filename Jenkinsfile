@@ -17,7 +17,9 @@ pipeline {
                     dir('cloud-parent') {
                         sh "mvn clean deploy -DaltDeploymentRepository=${REPO_ID}::default::${REPO_URL}"
                     }
-
+                    dir('api-parent') {
+                        sh "mvn clean deploy -DaltDeploymentRepository=${REPO_ID}::default::${REPO_URL}"
+                    }
                     dir('service-parent') {
                         sh "mvn clean deploy -DaltDeploymentRepository=${REPO_ID}::default::${REPO_URL}"
                     }
